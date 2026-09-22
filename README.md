@@ -1,4 +1,5 @@
-# Eyyodd_2026b
+![logo](Imagenes/logo.png)
+ #Eyyodd_2026b
 __repositorio__ de la materia de Estructura de Datos, Semestre 2026B
 
 ## Competencias a desarrollar
