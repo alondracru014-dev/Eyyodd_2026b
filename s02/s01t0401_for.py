@@ -29,7 +29,7 @@ for repetition in range(1,11):
     # Tomando el tiempo inicial
     timestamp_01 = time.time()
     #sumo los "n" numeros 
-    n = repetition*500
+    n = repetition*100
     #guardo el resultado en result
     result = sum_of_n(n)
 
@@ -47,7 +47,7 @@ for tup in dataset:
     print(tup)
 
 # Programa que calcula la suma de los "n" números naturales
-n = 500
+n = 100
 total_sum = 0
 
 total_sum = sum_of_n(n)
