@@ -1,4 +1,5 @@
-# Array 
+
+# Array
 # from array import *
 import array as arr
 
@@ -8,22 +9,37 @@ import array as arr
 # f: Numero decimal
 # d: Numero decimal doble
 # u: Caracteres unicode
-my_array = arr.array( 'i',[10,22,300])
 
-#Interacion  automatica
+my_array = arr.array('i', [10, 22, 300, 3, 7, 40, 700, 654])
+
+# Iteracion automatica
 for num in my_array:
-    print (num)
+    print(num)
 
 # Acceso individual a los elementos
-#print (my_array [0]) # Primer elemento
-#print (my_array [1]) # Segundo elemento
-# #print (my_array [1]) #  Tercer elemento
+print(my_array[0])  # Primer elemento
+print(my_array[1])  # Segundo elemento
+print(my_array[2])  # Tercer elemento
 
-# tamaño  de un arreglo
-# Lenght
-#print( len (my_array))
+# Tamaño de un arreglo
+# Length
+print(len(my_array))
 
 # Iteracion por indices
-for i in range (len(my_array)):
- if my_array [i]% 2 ==0:
-    print(f" Elemento Num {i+1}: {my_array[i]} ")
+for i in range(len(my_array)):
+    if my_array[i] % 2 == 0:
+        print(f"Elemento Num {i+1}: {my_array[i]}")
+
+# Busqueda de un elemento
+num_to_search = 200
+
+# Modificando un valor
+# my_array[7] = 200
+
+try:
+    print(f"Localizado {num_to_search}: {my_array.index(num_to_search)}")
+except ValueError:
+    print("⚠️ Numero no encontrado!!!")
+
+
+
