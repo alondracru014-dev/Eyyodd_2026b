@@ -5,7 +5,7 @@ from array import array as arr
 
 #Importando una funcuin de otro 
 #Archivo
-from sO2tO1O3_id.py  import print_array 
+from s02t0103_1d import print_array
 
 my_array=arr ('i',[2,10,15,20])
 
