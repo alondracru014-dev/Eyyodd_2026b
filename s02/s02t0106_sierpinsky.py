@@ -85,3 +85,4 @@ clear_screen()
 
 # Dibujando el triangulo
 draw_matrix(matrix, symbol="■")
+
